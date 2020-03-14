@@ -1,0 +1,30 @@
+%headline_extend{
+  //font-family: $main_family;
+  font-size: $headline_size;
+  color: $white_color;
+  position: relative;
+}
+
+%line_extend{
+  position: absolute;
+  width: 135px;
+  height: 2px;
+  background-color: #f1eee9;
+}
+
+%paragraph_extend{
+  //font-family: $main_family;
+  font-size: $par_size;
+  color: $white_color;
+}
+
+%bg_properties{
+  background-size: cover;
+  background:center no-repeat;
+}
+
+%nav_links{
+  color: $white_color !important;
+  font-size: $par_size;
+  //font-family: $main_family;
+}

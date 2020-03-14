@@ -1,0 +1,7 @@
+@function calc-navbar-content($nav, $container) {
+  @return ($nav / $container  ) * 100%;
+}
+
+@function calc-main-content($main, $container) {
+  @return ($main / $container  ) * 100%;
+}

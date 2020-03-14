@@ -1,0 +1,121 @@
+footer {
+  background-color: #252525;
+  padding-top: 87px;
+
+  .content {
+    width: calc-navbar-content($nav, $container);
+    margin: 0 auto;
+  }
+  .footer_wrappers {
+    width: 70%;
+  }
+  .footer_wrappers {
+    h3 {
+      color: white;
+      font-size: 24px;
+      line-height: 40px;
+      letter-spacing: 1.9px;
+      text-align: justify;
+    }
+    p {
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 30.5px;
+      letter-spacing: 1.4px;
+      text-align: justify;
+      color: #ffffff;
+    }
+  }
+
+  .sub {
+    width: 100%;
+    p {
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 45px;
+      text-align: left;
+      color: #ffffff;
+      padding: 30px 0 48px;
+    }
+
+    input {
+      border: 1px solid white;
+      background-color: unset;
+      border-radius: unset;
+    }
+    .input-group-text {
+      font-family: Raleway;
+      font-size: 15.5px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-align: right;
+      color: #000000;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding: unset;
+    li {
+      a {
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 40px;
+        letter-spacing: 1.6px;
+        text-align: justify;
+
+        &:hover {
+          color: #c3a261;
+          text-decoration: none;
+          transition: 500ms;
+        }
+      }
+    }
+  }
+
+  .social_links {
+    text-align: right;
+
+    h3 {
+      font-family: OpenSans;
+      font-size: 48px;
+      line-height: 72px;
+      letter-spacing: 3.8px;
+      text-align: left;
+      color: #ffffff;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      width: 65%;
+      margin-top: 50px;
+      float: right;
+
+      li {
+        a {
+          i {
+            font-size: 30px;
+          }
+          &:hover {
+            i {
+              color: #c3a261;
+              transition: 500ms;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    padding-top: 105px;
+    p {
+      font-size: 12px;
+      line-height: 54px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}

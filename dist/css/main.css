@@ -1,0 +1,1855 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@font-face {
+  font-family: 'Segoe_Semilight';
+  src: url("../fonts/SEGUISLI.TTF"); }
+
+@font-face {
+  font-family: 'Segoe_Regular';
+  src: url("../fonts/SEGOEUI.TTF"); }
+
+h2 {
+  font-size: 48px;
+  color: white;
+  position: relative; }
+
+p {
+  font-size: 20px;
+  color: white; }
+
+section.page_wrapper, section.grid-section-wrapper, section.custom_chocolate, section.chocolate_name, section.product_name {
+  background-size: cover;
+  background: center no-repeat; }
+
+header nav ul li a {
+  color: white !important;
+  font-size: 20px; }
+
+.content {
+  width: 79.16667%;
+  margin: 0 auto; }
+
+.flex_container {
+  display: flex; }
+
+body {
+  overflow-x: hidden; }
+
+img {
+  width: 100%; }
+
+a img {
+  width: unset; }
+
+body {
+  background-color: #252525; }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; }
+
+header .dark_bg {
+  background-color: black;
+  transition: 1500ms; }
+
+header nav {
+  width: 100%;
+  height: 85px;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 1500ms; }
+  header nav .content {
+    width: 90.46875%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; }
+  header nav a {
+    color: white !important; }
+  header nav ul li:nth-child(2) {
+    padding: 0 116px; }
+  header nav ul li.active a {
+    color: #c3a261 !important; }
+  header nav ul li a:hover {
+    color: #c3a261 !important;
+    transition: 800ms; }
+
+section.page_wrapper {
+  background-image: url("../img/1.png");
+  padding-top: 190px;
+  color: white;
+  text-align: center;
+  background-attachment: fixed; }
+  section.page_wrapper .page_wrapper_context {
+    font-size: 48px;
+    width: 67%;
+    margin: 0 auto; }
+    section.page_wrapper .page_wrapper_context h1 {
+      font-size: 48px;
+      line-height: 100px;
+      letter-spacing: 9.6px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 72px;
+      margin-bottom: 80px; }
+      section.page_wrapper .page_wrapper_context h1:after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: #c3a15e;
+        left: 50%;
+        bottom: -6px;
+        transform: rotate(135deg); }
+      section.page_wrapper .page_wrapper_context h1 span.line_1, section.page_wrapper .page_wrapper_context h1 span.line_2 {
+        height: 2px;
+        background-color: #c3a15e;
+        position: absolute;
+        bottom: 0;
+        width: 0; }
+      section.page_wrapper .page_wrapper_context h1 .line_1 {
+        left: 41%; }
+      section.page_wrapper .page_wrapper_context h1 .line_2 {
+        right: 40%; }
+    section.page_wrapper .page_wrapper_context p {
+      text-align: center;
+      padding-bottom: 128px;
+      margin-bottom: unset; }
+    section.page_wrapper .page_wrapper_context a {
+      background-color: #c3a15e;
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 20px;
+      letter-spacing: 1.6px;
+      text-align: center;
+      text-decoration: none;
+      padding: 17px 31px;
+      margin-bottom: 127px;
+      display: inline-block; }
+      section.page_wrapper .page_wrapper_context a img {
+        width: unset; }
+
+section.grid-section-wrapper {
+  background: #252525;
+  padding-bottom: 234px;
+  position: relative; }
+  section.grid-section-wrapper .flex_container {
+    padding-top: 204px; }
+    section.grid-section-wrapper .flex_container .left_item {
+      width: 50%;
+      height: 602px;
+      display: flex;
+      align-items: center; }
+      section.grid-section-wrapper .flex_container .left_item .default_border {
+        width: 598px;
+        height: 100%;
+        box-shadow: 0 5px 13.1px 2.9px rgba(1, 2, 3, 0.11);
+        border: 1px solid #c3a15e; }
+        section.grid-section-wrapper .flex_container .left_item .default_border img {
+          width: 100%;
+          height: 100%;
+          margin: 50px;
+          object-fit: cover; }
+    section.grid-section-wrapper .flex_container .right_item {
+      width: 50%;
+      height: 602px;
+      display: flex;
+      align-items: center;
+      text-align: left; }
+    section.grid-section-wrapper .flex_container .left_item h2, section.grid-section-wrapper .flex_container .right_item h2 {
+      font-size: 48px;
+      font-weight: 300;
+      line-height: 30px;
+      letter-spacing: 3.8px;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 62px;
+      position: relative; }
+      section.grid-section-wrapper .flex_container .left_item h2:after, section.grid-section-wrapper .flex_container .right_item h2:after {
+        position: absolute;
+        content: '';
+        display: block;
+        background-color: #f1eee9;
+        height: 2px;
+        width: 135px;
+        top: 50%;
+        left: -26%; }
+    section.grid-section-wrapper .flex_container .left_item p, section.grid-section-wrapper .flex_container .right_item p {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 30px;
+      letter-spacing: 1.6px;
+      color: #ffffff; }
+    section.grid-section-wrapper .flex_container .right_position_img {
+      position: absolute;
+      right: 60px; }
+    section.grid-section-wrapper .flex_container .left_position_img {
+      position: absolute;
+      left: -10%;
+      top: 33%; }
+    section.grid-section-wrapper .flex_container .left_choco_img {
+      left: 174px;
+      width: 35%;
+      transform: rotate(45deg);
+      opacity: 0.40; }
+  section.grid-section-wrapper .reverse_container {
+    flex-flow: row-reverse; }
+    section.grid-section-wrapper .reverse_container .default_border img {
+      margin: 40px -40px !important; }
+    section.grid-section-wrapper .reverse_container .right_item {
+      z-index: 999;
+      text-align: right; }
+      section.grid-section-wrapper .reverse_container .right_item .item_text {
+        margin-right: 160px; }
+        section.grid-section-wrapper .reverse_container .right_item .item_text h2 {
+          text-align: right; }
+          section.grid-section-wrapper .reverse_container .right_item .item_text h2:after {
+            left: 104%; }
+
+section.chocolate_type {
+  background-color: #f1eee9;
+  position: relative;
+  padding-bottom: 104px; }
+  section.chocolate_type .section_title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 72px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    width: 43%;
+    margin: 0 auto;
+    padding: 60px 0 97px; }
+  section.chocolate_type .types .type_name {
+    width: 258px;
+    height: 258px;
+    border-radius: 50%;
+    position: relative; }
+    section.chocolate_type .types .type_name img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover; }
+    section.chocolate_type .types .type_name h5 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      transform: translate(-50%); }
+  section.chocolate_type .left_img, section.chocolate_type .right_img {
+    position: absolute; }
+  section.chocolate_type .right_img {
+    right: 40px;
+    bottom: 0;
+    z-index: 9; }
+  section.chocolate_type:after {
+    position: absolute;
+    background-color: #f1eee9;
+    content: '';
+    display: block;
+    height: 121px;
+    left: 0;
+    bottom: -61px;
+    transform: rotateZ(-3deg);
+    right: -6px;
+    z-index: 0; }
+
+section.custom_chocolate {
+  background-image: url("../img/8.png"); }
+  section.custom_chocolate .bg_opacity {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 231px;
+    padding-bottom: 84px; }
+  section.custom_chocolate .section_title_and_paragraph {
+    text-align: center;
+    width: 58%;
+    margin: 0 auto; }
+    section.custom_chocolate .section_title_and_paragraph h2 {
+      font-size: 30.5px;
+      font-weight: 300;
+      line-height: 25.5px;
+      letter-spacing: 2.4px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      padding-bottom: 53px;
+      position: relative;
+      margin-bottom: 38px; }
+      section.custom_chocolate .section_title_and_paragraph h2:before {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 178px;
+        height: 2px;
+        background-color: #c3a15e;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%); }
+      section.custom_chocolate .section_title_and_paragraph h2:after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 12px;
+        height: 12px;
+        background-color: #c3a15e;
+        left: 50%;
+        bottom: -5px;
+        transform: rotate(135deg); }
+    section.custom_chocolate .section_title_and_paragraph p {
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 30.5px;
+      letter-spacing: 1.4px;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 66px; }
+    section.custom_chocolate .section_title_and_paragraph a {
+      border: 1px solid #f1eee9;
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 20px;
+      letter-spacing: 1.6px;
+      text-decoration: none;
+      text-align: center;
+      padding: 13px 30px; }
+
+section.choose_type {
+  background-color: #252525;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #c3a15e;
+  padding-top: 179px; }
+  section.choose_type .diagram_container {
+    height: 639px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden; }
+    section.choose_type .diagram_container #container {
+      height: 100%;
+      width: 100%;
+      margin: 77px auto 0; }
+  section.choose_type .header_position_img, section.choose_type .bottom_pos_img {
+    position: absolute; }
+  section.choose_type .header_position_img {
+    left: 0; }
+  section.choose_type .bottom_pos_img {
+    right: -6%;
+    top: 25%; }
+
+section.offer_custom_chocolate {
+  padding-top: 143px;
+  background-color: #252525;
+  position: relative; }
+  section.offer_custom_chocolate .center_pos_img {
+    position: absolute;
+    left: 30%;
+    top: 7%; }
+  section.offer_custom_chocolate .left_pos_img {
+    position: absolute;
+    left: -22%;
+    top: 39%; }
+  section.offer_custom_chocolate .center_pos_img1 {
+    position: absolute;
+    left: 36%;
+    top: 72%; }
+  section.offer_custom_chocolate .right_pos_img {
+    position: absolute;
+    right: -70px;
+    bottom: 7%; }
+  section.offer_custom_chocolate .prev_and_next {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    section.offer_custom_chocolate .prev_and_next a {
+      font-size: 27px;
+      font-weight: 300;
+      line-height: 22.5px;
+      letter-spacing: 2.2px;
+      color: #ffffff;
+      text-decoration: none; }
+    section.offer_custom_chocolate .prev_and_next span {
+      padding: 0 20px; }
+  section.offer_custom_chocolate .item_text h2 {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 22.5px;
+    letter-spacing: 2.2px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative; }
+    section.offer_custom_chocolate .item_text h2:after {
+      position: absolute;
+      display: block;
+      content: '';
+      height: 2px;
+      background-color: #c3a15e;
+      bottom: 0;
+      width: 180px;
+      left: 50%;
+      transform: translate(-50%); }
+    section.offer_custom_chocolate .item_text h2:before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-color: #c3a15e;
+      left: 50%;
+      bottom: -6px;
+      transform: rotate(135deg); }
+  section.offer_custom_chocolate .item_text p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 104px;
+    width: 50%;
+    margin: 0 auto; }
+  section.offer_custom_chocolate .filterDiv {
+    display: flex;
+    margin-bottom: 150px;
+    overflow: hidden; }
+    section.offer_custom_chocolate .filterDiv a {
+      text-decoration: none !important;
+      display: block;
+      width: 100%;
+      height: 100%; }
+    section.offer_custom_chocolate .filterDiv .full_width {
+      width: 100% !important; }
+    section.offer_custom_chocolate .filterDiv .recipe {
+      width: 20%;
+      text-align: right;
+      height: 100%; }
+      section.offer_custom_chocolate .filterDiv .recipe ul {
+        margin-right: 45px;
+        height: 100%; }
+        section.offer_custom_chocolate .filterDiv .recipe ul li {
+          clear: both; }
+        section.offer_custom_chocolate .filterDiv .recipe ul p {
+          margin-bottom: 10px; }
+        section.offer_custom_chocolate .filterDiv .recipe ul div {
+          height: 1px;
+          background-color: #ffffff;
+          position: relative;
+          margin-bottom: 23px;
+          float: right; }
+          section.offer_custom_chocolate .filterDiv .recipe ul div:after {
+            position: absolute;
+            display: block;
+            content: '';
+            background-color: #f1eee9;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            top: -4px;
+            right: 0; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 5px;
+      background-color: #f1eee9;
+      list-style-type: none;
+      padding: unset;
+      height: 100%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+        padding: 75px 75px 0 75px; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+        width: 30%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child {
+        width: 70%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li .filtered_item_img {
+        opacity: 0.3;
+        border-radius: 5px;
+        background-color: #f1eee9;
+        height: 100%; }
+        section.offer_custom_chocolate .filterDiv ul.main_filtered_product li .filtered_item_img img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li h3 {
+        font-size: 72px;
+        font-weight: 300;
+        letter-spacing: 7.2px;
+        text-align: center;
+        color: #000000;
+        padding-bottom: 65px; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 1.9px;
+        text-align: left;
+        color: #000000;
+        min-height: 80px;
+        overflow: hidden; }
+        section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span {
+          font-size: 47.5px;
+          line-height: 25px;
+          letter-spacing: 3.8px;
+          text-align: left;
+          color: #000000;
+          position: relative;
+          display: block;
+          padding-left: 27%;
+          margin: 50px 0; }
+          section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span:after {
+            position: absolute;
+            height: 4px;
+            width: 54%;
+            background-color: #c3a15e;
+            content: '';
+            display: block;
+            right: 0;
+            bottom: 0; }
+
+section.product_name {
+  background-image: url("../img/28.png") !important; }
+
+section.chocolate_name, section.product_name {
+  background-image: url("../img/15.png");
+  height: 115px;
+  width: 100%;
+  margin-top: 107px;
+  position: relative;
+  background-size: cover; }
+  section.chocolate_name .opacity_bg, section.product_name .opacity_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; }
+    section.chocolate_name .opacity_bg h2, section.product_name .opacity_bg h2 {
+      font-size: 36px;
+      font-weight: 300;
+      line-height: 40px;
+      letter-spacing: 2.9px;
+      text-align: center;
+      color: #ffffff; }
+
+section.chocolate_description {
+  position: relative;
+  padding-top: 197px;
+  padding-bottom: 150px; }
+  section.chocolate_description .position_img {
+    position: absolute;
+    left: -13%;
+    z-index: 0;
+    top: 0; }
+  section.chocolate_description .flex_container {
+    display: flex; }
+    section.chocolate_description .flex_container .flex_item {
+      z-index: 9; }
+      section.chocolate_description .flex_container .flex_item .chocolate_pic {
+        width: 350px;
+        height: 392px;
+        margin-right: 107px; }
+        section.chocolate_description .flex_container .flex_item .chocolate_pic img {
+          height: 100%;
+          object-fit: cover; }
+      section.chocolate_description .flex_container .flex_item .main_desc {
+        display: flex; }
+        section.chocolate_description .flex_container .flex_item .main_desc .item_text {
+          width: 50%; }
+          section.chocolate_description .flex_container .flex_item .main_desc .item_text h2 {
+            font-size: 35px;
+            font-weight: 300;
+            line-height: 22.5px;
+            letter-spacing: 2.8px;
+            text-align: left;
+            color: #ffffff;
+            position: relative;
+            margin-top: 38px; }
+            section.chocolate_description .flex_container .flex_item .main_desc .item_text h2:after {
+              position: absolute;
+              display: block;
+              content: '';
+              background-color: #f1eee9;
+              height: 3px;
+              width: 85px;
+              left: -29%;
+              top: 12px; }
+          section.chocolate_description .flex_container .flex_item .main_desc .item_text p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: 1.2px;
+            text-align: left;
+            color: #ffffff; }
+          section.chocolate_description .flex_container .flex_item .main_desc .item_text ul {
+            padding: unset;
+            list-style-type: none;
+            margin-bottom: 22px;
+            display: flex;
+            justify-content: space-between; }
+            section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li {
+              margin-top: 56px;
+              display: flex;
+              justify-content: space-between;
+              flex-direction: column; }
+              section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p.main_percent {
+                font-size: 35px; }
+              section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p.child_prop {
+                font-size: 18px;
+                padding-bottom: unset; }
+                section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p.child_prop span {
+                  padding-left: 15px; }
+              section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p {
+                font-size: 30px;
+                font-weight: 300;
+                line-height: 22.5px;
+                letter-spacing: 1.9px;
+                text-align: left;
+                color: #ffffff;
+                padding-bottom: 20px; }
+        section.chocolate_description .flex_container .flex_item .main_desc .location h4 {
+          font-size: 35px;
+          font-weight: 300;
+          line-height: 22.5px;
+          letter-spacing: 2.8px;
+          text-align: center;
+          color: #ffffff;
+          padding-top: 77px; }
+
+section.taste_profile_chart {
+  position: relative;
+  padding-top: 185px;
+  padding-bottom: 230px;
+  z-index: 99; }
+  section.taste_profile_chart .position_left_img {
+    left: -15%; }
+  section.taste_profile_chart .position_right_img {
+    right: -20%; }
+  section.taste_profile_chart .position_left_img, section.taste_profile_chart .position_right_img {
+    position: absolute; }
+  section.taste_profile_chart .section_title h2 {
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 2.3px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 46px;
+    margin-bottom: 43px; }
+    section.taste_profile_chart .section_title h2:after {
+      position: absolute;
+      display: block;
+      content: '';
+      height: 2px;
+      background-color: #c3a15e;
+      bottom: 0;
+      width: 180px;
+      left: 50%;
+      transform: translate(-50%); }
+    section.taste_profile_chart .section_title h2:before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-color: #c3a15e;
+      left: 50%;
+      bottom: -6px;
+      transform: rotate(135deg); }
+  section.taste_profile_chart .section_title p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #ffffff;
+    width: 63%;
+    margin: 0 auto;
+    padding-bottom: 140px; }
+  section.taste_profile_chart .diagram {
+    text-align: center; }
+    section.taste_profile_chart .diagram .chocolate-main {
+      display: flex; }
+      section.taste_profile_chart .diagram .chocolate-main #chocolate-flavour-selector {
+        color: white; }
+    section.taste_profile_chart .diagram img {
+      width: 100%;
+      margin: 0 auto; }
+
+section.chocolate_fruits {
+  overflow: hidden;
+  background-color: #f1eee9;
+  padding: 70px 0 120px;
+  position: relative;
+  z-index: 98; }
+  section.chocolate_fruits .nav-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 47%;
+    margin: 0 auto 70px; }
+    section.chocolate_fruits .nav-tabs li a {
+      color: #c3a15e;
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 25.5px;
+      letter-spacing: 2px;
+      text-align: center;
+      padding: 16px 54px;
+      cursor: pointer;
+      text-transform: uppercase;
+      border: 1px solid #c3a15e;
+      border-radius: unset; }
+    section.chocolate_fruits .nav-tabs li a.active {
+      background-color: #c3a15e;
+      border: #c3a15e;
+      color: white;
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 25.5px;
+      letter-spacing: 2px;
+      text-align: center;
+      padding: 17px 54px;
+      cursor: pointer;
+      text-transform: uppercase; }
+  section.chocolate_fruits .submit_btn button {
+    background-color: #c3a15e;
+    border: #c3a15e;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 25.5px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 17px 54px;
+    cursor: pointer; }
+  section.chocolate_fruits .choose_nuts {
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 130px; }
+  section.chocolate_fruits .choose_fruits {
+    padding-top: 50px;
+    padding-bottom: 130px; }
+  section.chocolate_fruits .left_top_img, section.chocolate_fruits .right_bottom_img {
+    position: absolute;
+    display: block; }
+  section.chocolate_fruits .left_top_img {
+    left: -20%;
+    top: -20%;
+    z-index: -6; }
+  section.chocolate_fruits .right_bottom_img {
+    right: 0;
+    top: 74%; }
+  section.chocolate_fruits .section_title h2 {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 60px;
+    text-transform: uppercase; }
+  section.chocolate_fruits .section_title p {
+    font-size: 15.5px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #000000;
+    width: 51%;
+    margin: 0 auto;
+    padding-bottom: 127px; }
+  section.chocolate_fruits .slider {
+    position: relative;
+    /*------------*/ }
+    section.chocolate_fruits .slider .recommend {
+      font-size: 15px;
+      letter-spacing: 2.9px;
+      text-align: center;
+      color: #c3a15e;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      height: 20px; }
+    section.chocolate_fruits .slider .proportions {
+      text-align: center;
+      margin-top: 19px; }
+    section.chocolate_fruits .slider .chose-fruit {
+      transform: scale(1.1); }
+      section.chocolate_fruits .slider .chose-fruit .opacity_bg {
+        background-color: rgba(255, 255, 255, 0.8); }
+    section.chocolate_fruits .slider .chose_fruit .fruit_img {
+      transform: scale(1.2) !important;
+      transition: 900ms !important; }
+      section.chocolate_fruits .slider .chose_fruit .fruit_img .opacity_bg {
+        opacity: 0.85;
+        box-shadow: 0 5px 13.1px 2.9px rgba(1, 2, 3, 0.11);
+        background-color: #ffffff !important; }
+        section.chocolate_fruits .slider .chose_fruit .fruit_img .opacity_bg p {
+          color: black !important; }
+    section.chocolate_fruits .slider .main_fruits .fruit_img {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto;
+      box-shadow: 0 5px 13.1px 2.9px rgba(1, 2, 3, 0.11);
+      cursor: pointer;
+      overflow: hidden; }
+      section.chocolate_fruits .slider .main_fruits .fruit_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: 800ms; }
+      section.chocolate_fruits .slider .main_fruits .fruit_img .opacity_bg {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        section.chocolate_fruits .slider .main_fruits .fruit_img .opacity_bg p {
+          margin: unset;
+          font-size: 18px;
+          line-height: 41.5px;
+          letter-spacing: 3.6px;
+          text-align: center;
+          color: #ffffff;
+          text-transform: uppercase; }
+      section.chocolate_fruits .slider .main_fruits .fruit_img:hover img {
+        transform: scale(1.3);
+        transition: 800ms; }
+    section.chocolate_fruits .slider .owl-prev, section.chocolate_fruits .slider .owl-next {
+      position: absolute;
+      font-size: 70px !important;
+      top: 30%;
+      transform: translate(-10%); }
+      section.chocolate_fruits .slider .owl-prev:focus, section.chocolate_fruits .slider .owl-next:focus {
+        outline: unset;
+        box-shadow: unset;
+        border: unset; }
+    section.chocolate_fruits .slider .owl-prev {
+      left: 0; }
+    section.chocolate_fruits .slider .owl-next {
+      right: 0; }
+    section.chocolate_fruits .slider #owl-demo2 .owl-prev, section.chocolate_fruits .slider #owl-demo2 .owl-next {
+      display: none !important; }
+    section.chocolate_fruits .slider .proportion {
+      display: none; }
+    section.chocolate_fruits .slider .radio-group {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      width: 50%;
+      margin: 30px auto; }
+      section.chocolate_fruits .slider .radio-group .square {
+        border: 1px solid #c3a15e;
+        width: 16px;
+        height: 16px;
+        transform: rotate(45deg);
+        display: block; }
+      section.chocolate_fruits .slider .radio-group .radio-button {
+        opacity: 0;
+        height: 0;
+        width: 0;
+        display: none; }
+      section.chocolate_fruits .slider .radio-group .radio-icon {
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      section.chocolate_fruits .slider .radio-group .radio-icon-label {
+        font-size: 1.75rem;
+        color: #c3a15e; }
+      section.chocolate_fruits .slider .radio-group .radio-icon-label:hover {
+        cursor: pointer; }
+      section.chocolate_fruits .slider .radio-group .radio-button:checked ~ .radio-icon,
+      section.chocolate_fruits .slider .radio-group .radio-button:hover ~ .radio-icon {
+        transform: scale(1.1, 1.1); }
+        section.chocolate_fruits .slider .radio-group .radio-button:checked ~ .radio-icon .radio-icon-label,
+        section.chocolate_fruits .slider .radio-group .radio-button:hover ~ .radio-icon .radio-icon-label {
+          color: #c3a15e; }
+          section.chocolate_fruits .slider .radio-group .radio-button:checked ~ .radio-icon .radio-icon-label .square,
+          section.chocolate_fruits .slider .radio-group .radio-button:hover ~ .radio-icon .radio-icon-label .square {
+            background-color: #c3a15e; }
+
+.buy_now_chocolate {
+  text-align: center; }
+  .buy_now_chocolate .modal-content {
+    background: #f1eee9; }
+  .buy_now_chocolate .modal-header, .buy_now_chocolate .modal-footer {
+    border: unset;
+    text-align: center; }
+  .buy_now_chocolate .modal-header {
+    padding: 10px 15px 0; }
+  .buy_now_chocolate button.buy {
+    background-color: #c3a15e;
+    border: #c3a15e;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 25.5px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 17px 54px;
+    cursor: pointer;
+    border-radius: unset;
+    margin: 0 auto 25px; }
+  .buy_now_chocolate .modal-body label {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 25px;
+    font-size: 25px;
+    text-transform: uppercase; }
+  .buy_now_chocolate .modal-body input {
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #cecece;
+    color: #000000; }
+
+.length_1 {
+  width: 10%; }
+
+.length_2 {
+  width: 20%; }
+
+.length_3 {
+  width: 30%; }
+
+.length_4 {
+  width: 40%; }
+
+.length_5 {
+  width: 50%; }
+
+.length_6 {
+  width: 60%; }
+
+.length_7 {
+  width: 70%; }
+
+.length_8 {
+  width: 80%; }
+
+.length_9 {
+  width: 90%; }
+
+.length_10 {
+  width: 100%; }
+
+footer {
+  background-color: #252525;
+  padding-top: 87px; }
+  footer .content {
+    width: 90.46875%;
+    margin: 0 auto; }
+  footer .footer_wrappers {
+    width: 70%; }
+  footer .footer_wrappers h3 {
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 1.9px;
+    text-align: justify; }
+  footer .footer_wrappers p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30.5px;
+    letter-spacing: 1.4px;
+    text-align: justify;
+    color: #ffffff; }
+  footer .sub {
+    width: 100%; }
+    footer .sub p {
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 45px;
+      text-align: left;
+      color: #ffffff;
+      padding: 30px 0 48px; }
+    footer .sub input {
+      border: 1px solid white;
+      background-color: unset;
+      border-radius: unset; }
+    footer .sub .input-group-text {
+      font-family: Raleway;
+      font-size: 15.5px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-align: right;
+      color: #000000; }
+  footer ul {
+    list-style-type: none;
+    padding: unset; }
+    footer ul li a {
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 40px;
+      letter-spacing: 1.6px;
+      text-align: justify; }
+      footer ul li a:hover {
+        color: #c3a261;
+        text-decoration: none;
+        transition: 500ms; }
+  footer .social_links {
+    text-align: right; }
+    footer .social_links h3 {
+      font-family: OpenSans;
+      font-size: 48px;
+      line-height: 72px;
+      letter-spacing: 3.8px;
+      text-align: left;
+      color: #ffffff; }
+    footer .social_links ul {
+      display: flex;
+      justify-content: space-between;
+      width: 65%;
+      margin-top: 50px;
+      float: right; }
+      footer .social_links ul li a i {
+        font-size: 30px; }
+      footer .social_links ul li a:hover i {
+        color: #c3a261;
+        transition: 500ms; }
+  footer .copyright {
+    padding-top: 105px; }
+    footer .copyright p {
+      font-size: 12px;
+      line-height: 54px;
+      text-align: center;
+      color: #ffffff; }
+
+figure.snip1566 {
+  position: relative;
+  max-width: 258px;
+  height: 258px;
+  width: 100%; }
+
+figure.snip1566:hover img {
+  transition: 800ms; }
+
+.snip1566 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer; }
+
+.snip1566 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%; }
+
+.snip1566 a {
+  position: absolute;
+  top: 35%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  z-index: 1;
+  text-align: center;
+  font-size: 36px;
+  line-height: 72px;
+  letter-spacing: 7.2px;
+  text-decoration: none; }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  section.chocolate_fruits .nav-tabs {
+    width: 100%; }
+  section.chocolate_fruits .left_top_img {
+    left: 0;
+    top: -48%;
+    z-index: -6; }
+  section.chocolate_fruits .slider .owl-prev {
+    left: 2px; }
+  section.chocolate_fruits .slider .owl-prev, section.chocolate_fruits .slider .owl-next {
+    top: 30%; }
+  header .fixed-top {
+    position: inherit;
+    height: auto; }
+  header .navbar-toggler {
+    float: right; }
+  header nav .content {
+    display: block !important; }
+  header nav {
+    padding-top: 25px; }
+    header nav ul li {
+      text-align: center; }
+    header nav ul li:nth-child(2) {
+      padding: unset; }
+  .content {
+    width: 90%;
+    margin: 0 auto; }
+  .flex_container {
+    flex-direction: column; }
+  h2 {
+    font-size: 30px; }
+  figure.snip1566 {
+    margin: 20px auto; }
+  section.offer_custom_chocolate .item_text h2 {
+    line-height: normal;
+    letter-spacing: normal; }
+  section.chocolate_name {
+    margin-top: 20px; }
+  section.offer_custom_chocolate {
+    padding-top: 0; }
+    section.offer_custom_chocolate .right_pos_img {
+      right: 0; }
+    section.offer_custom_chocolate .filterDiv {
+      margin-bottom: 50px; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p {
+        min-height: 133px;
+        overflow: hidden;
+        height: 190px;
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 18px; }
+        section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p:last-child {
+          height: auto;
+          min-height: auto; }
+        section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span {
+          margin: 25px 0; }
+          section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span:after {
+            width: 50%;
+            bottom: -28px; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li h3 {
+        letter-spacing: normal;
+        line-height: normal;
+        font-size: 30px;
+        padding-bottom: 35px; }
+      section.offer_custom_chocolate .filterDiv .recipe {
+        width: 40%; }
+        section.offer_custom_chocolate .filterDiv .recipe ul {
+          padding: 0;
+          margin-right: 25px; }
+    section.offer_custom_chocolate .item_text p {
+      width: 90%; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+      flex-direction: column; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+        width: 100%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+        padding: 15px; }
+  section.custom_chocolate {
+    background-size: cover; }
+    section.custom_chocolate .section_title_and_paragraph {
+      width: 90%;
+      margin: 0 auto; }
+  section.grid-section-wrapper {
+    padding-bottom: 100px; }
+    section.grid-section-wrapper .reverse_container {
+      flex-direction: column; }
+      section.grid-section-wrapper .reverse_container .right_item .item_text {
+        margin-right: unset; }
+        section.grid-section-wrapper .reverse_container .right_item .item_text h2:after {
+          left: 0; }
+    section.grid-section-wrapper .flex_container {
+      padding-top: 100px; }
+      section.grid-section-wrapper .flex_container .right_position_img {
+        right: 0; }
+      section.grid-section-wrapper .flex_container .left_item {
+        width: 100%;
+        height: auto;
+        z-index: 9999; }
+        section.grid-section-wrapper .flex_container .left_item .default_border {
+          width: auto;
+          height: auto; }
+          section.grid-section-wrapper .flex_container .left_item .default_border img {
+            margin: 10px 0 10px 10px !important; }
+      section.grid-section-wrapper .flex_container .right_item {
+        height: auto;
+        width: 100%; }
+        section.grid-section-wrapper .flex_container .right_item h2 {
+          text-align: right;
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 26px; }
+          section.grid-section-wrapper .flex_container .right_item h2:after {
+            left: 0;
+            width: 28%; }
+        section.grid-section-wrapper .flex_container .right_item p {
+          font-size: 16px; }
+  section.chocolate_type:after {
+    transform: rotate(0);
+    right: 0; }
+  section.chocolate_type .section_title h2 {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 38px;
+    width: 100%; }
+  section.page_wrapper {
+    padding-top: 150px; }
+    section.page_wrapper .page_wrapper_context {
+      width: 100%; }
+      section.page_wrapper .page_wrapper_context p {
+        padding-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context a {
+        margin-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context h1 {
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 30px; }
+  section.choose_type {
+    border: unset;
+    padding-top: 60px; }
+    section.choose_type .bottom_pos_img {
+      display: none; }
+    section.choose_type .diagram_container {
+      height: auto; }
+  section.chocolate_fruits .right_bottom_img {
+    display: none; }
+  section.chocolate_fruits .choose_nuts {
+    width: 90%;
+    padding-bottom: 70px;
+    padding-top: 90px; }
+  section.chocolate_fruits .section_title p {
+    width: 100%;
+    padding-bottom: 70px; }
+  section.chocolate_fruits .section_title h2 {
+    padding-bottom: 25px;
+    padding-top: 50px; }
+  section.chocolate_description {
+    padding-top: 80px; }
+    section.chocolate_description .flex_container .flex_item .main_desc {
+      flex-direction: column; }
+      section.chocolate_description .flex_container .flex_item .main_desc .item_text {
+        width: 100%; }
+        section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p {
+          line-height: normal;
+          letter-spacing: normal; }
+          section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p.child_prop span {
+            padding-left: 0;
+            display: block;
+            text-align: left; }
+    section.chocolate_description .flex_container .flex_item .chocolate_pic {
+      width: 100%; }
+  section.taste_profile_chart {
+    padding-top: 80px;
+    padding-bottom: 100px; }
+    section.taste_profile_chart .diagram img {
+      width: 100%; }
+    section.taste_profile_chart .section_title h2 {
+      line-height: normal;
+      letter-spacing: normal; }
+    section.taste_profile_chart .section_title p {
+      width: 96%; }
+    section.taste_profile_chart .position_right_img {
+      display: none; }
+  footer .footer_wrappers {
+    width: 100%; } }
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p {
+    min-height: 75px !important;
+    height: 75px !important; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header .fixed-top {
+    position: inherit;
+    height: auto; }
+  header .navbar-toggler {
+    float: right; }
+  header nav .content {
+    display: block !important; }
+  header nav {
+    padding-top: 25px; }
+    header nav ul li {
+      text-align: center; }
+    header nav ul li:nth-child(2) {
+      padding: unset; }
+  .content {
+    width: 90%;
+    margin: 0 auto; }
+  .flex_container {
+    flex-direction: row; }
+  h2 {
+    font-size: 30px; }
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px; }
+  section.custom_chocolate {
+    background-size: cover; }
+    section.custom_chocolate .section_title_and_paragraph {
+      width: 90%;
+      margin: 0 auto; }
+  section.grid-section-wrapper {
+    padding-bottom: 100px; }
+    section.grid-section-wrapper .reverse_container {
+      flex-direction: row-reverse; }
+      section.grid-section-wrapper .reverse_container .right_item {
+        padding-right: 35px; }
+        section.grid-section-wrapper .reverse_container .right_item .item_text {
+          margin-right: unset; }
+          section.grid-section-wrapper .reverse_container .right_item .item_text h2 {
+            text-align: left !important; }
+            section.grid-section-wrapper .reverse_container .right_item .item_text h2:after {
+              left: 83% !important; }
+    section.grid-section-wrapper .flex_container {
+      padding-top: 100px; }
+      section.grid-section-wrapper .flex_container .right_position_img {
+        display: none; }
+      section.grid-section-wrapper .flex_container .left_item {
+        width: 100%;
+        height: auto;
+        z-index: 9999; }
+        section.grid-section-wrapper .flex_container .left_item .default_border {
+          width: auto;
+          height: auto; }
+          section.grid-section-wrapper .flex_container .left_item .default_border img {
+            margin: 10px 0 10px 10px !important; }
+      section.grid-section-wrapper .flex_container .right_item {
+        height: auto;
+        width: 100%;
+        padding-left: 35px; }
+        section.grid-section-wrapper .flex_container .right_item h2 {
+          text-align: left;
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 26px;
+          margin-bottom: 8px; }
+          section.grid-section-wrapper .flex_container .right_item h2:after {
+            left: -32%;
+            width: 28%;
+            z-index: 9999999; }
+        section.grid-section-wrapper .flex_container .right_item p {
+          font-size: 16px;
+          height: 180px;
+          overflow: hidden; }
+  section.chocolate_type:after {
+    transform: rotate(0); }
+  section.chocolate_type .section_title h2 {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 38px;
+    width: 100%; }
+  section.page_wrapper {
+    padding-top: 150px; }
+    section.page_wrapper .page_wrapper_context {
+      width: 100%; }
+      section.page_wrapper .page_wrapper_context p {
+        padding-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context a {
+        margin-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context h1 {
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 30px; }
+  section.choose_type {
+    border: unset;
+    padding-top: 100px; }
+    section.choose_type .diagram_container {
+      height: auto; }
+    section.choose_type .bottom_pos_img {
+      display: none; }
+  section.offer_custom_chocolate {
+    padding-top: 0;
+    margin-top: -20%; }
+    section.offer_custom_chocolate .right_pos_img {
+      right: 0; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+      flex-direction: column; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+        width: 100%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+        padding: 15px; }
+  section.taste_profile_chart .position_right_img {
+    right: 0;
+    opacity: 0.4; }
+  section.taste_profile_chart .position_left_img {
+    opacity: 0.4; }
+  section.chocolate_fruits .left_top_img {
+    top: -40%; }
+  section.chocolate_fruits .choose_nuts {
+    width: 96%; }
+  section.chocolate_description .flex_container .flex_item .main_desc {
+    flex-direction: column; }
+    section.chocolate_description .flex_container .flex_item .main_desc .item_text {
+      width: 100%; }
+      section.chocolate_description .flex_container .flex_item .main_desc .item_text h2 {
+        letter-spacing: normal;
+        line-height: normal; }
+        section.chocolate_description .flex_container .flex_item .main_desc .item_text h2:after {
+          display: none;
+          left: -20%;
+          top: 25px; }
+  section.chocolate_description .flex_container .flex_item .chocolate_pic {
+    margin-right: 20px;
+    width: 250px; }
+  section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p {
+    font-size: 18px;
+    margin: unset; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span {
+      font-size: 40px;
+      line-height: normal;
+      letter-spacing: normal;
+      margin: 20px 0; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span:after {
+        bottom: 24px; }
+  section.offer_custom_chocolate .filterDiv ul.main_filtered_product li h3 {
+    font-size: 45px;
+    padding: 0 20px 25px;
+    margin: unset; }
+  footer .footer_wrappers {
+    width: 100%; } }
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .content {
+    width: 90%;
+    margin: 0 auto; }
+  .flex_container {
+    flex-direction: row; }
+  h2 {
+    font-size: 30px; }
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px; }
+  section.choose_type {
+    border: unset;
+    padding-top: 150px; }
+    section.choose_type .diagram_container {
+      height: auto; }
+    section.choose_type .bottom_pos_img {
+      display: none; }
+  section.offer_custom_chocolate {
+    padding-top: 0;
+    margin-top: -20%; }
+    section.offer_custom_chocolate .right_pos_img {
+      right: 0; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+      flex-direction: column; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+        width: 100%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+        padding: 15px; }
+  section.custom_chocolate {
+    background-size: cover; }
+    section.custom_chocolate .section_title_and_paragraph {
+      width: 90%;
+      margin: 0 auto; }
+  section.grid-section-wrapper {
+    padding-bottom: 100px; }
+    section.grid-section-wrapper .reverse_container {
+      flex-direction: row-reverse; }
+      section.grid-section-wrapper .reverse_container .right_item {
+        padding-right: 35px; }
+        section.grid-section-wrapper .reverse_container .right_item .item_text {
+          margin-right: unset; }
+          section.grid-section-wrapper .reverse_container .right_item .item_text h2 {
+            text-align: left !important; }
+            section.grid-section-wrapper .reverse_container .right_item .item_text h2:after {
+              left: 83% !important; }
+    section.grid-section-wrapper .flex_container {
+      padding-top: 100px; }
+      section.grid-section-wrapper .flex_container .right_position_img {
+        display: none; }
+      section.grid-section-wrapper .flex_container .left_item {
+        width: 100%;
+        height: auto;
+        z-index: 9999; }
+        section.grid-section-wrapper .flex_container .left_item .default_border {
+          width: auto;
+          height: auto; }
+          section.grid-section-wrapper .flex_container .left_item .default_border img {
+            margin: 10px 0 10px 10px; }
+      section.grid-section-wrapper .flex_container .right_item {
+        height: auto;
+        width: 100%;
+        padding-left: 35px; }
+        section.grid-section-wrapper .flex_container .right_item h2 {
+          text-align: left;
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 26px;
+          margin-bottom: 8px; }
+          section.grid-section-wrapper .flex_container .right_item h2:after {
+            left: -32%;
+            width: 28%;
+            z-index: 9999999; }
+        section.grid-section-wrapper .flex_container .right_item p {
+          font-size: 16px;
+          height: 180px;
+          overflow: hidden; }
+  section.chocolate_type:after {
+    transform: rotate(0); }
+  section.chocolate_type .section_title h2 {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 38px;
+    width: 100%; }
+  section.page_wrapper {
+    padding-top: 150px; }
+    section.page_wrapper .page_wrapper_context {
+      width: 100%; }
+      section.page_wrapper .page_wrapper_context p {
+        padding-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context a {
+        margin-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context h1 {
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 30px; }
+  section.choose_type .diagram_container {
+    height: auto; }
+  section.offer_custom_chocolate .right_pos_img {
+    right: 0; }
+  section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+    flex-direction: row; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+      width: 100%; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li h3 {
+      font-size: 50px; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span {
+      margin: 25px 0; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span:after {
+        width: 35%; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+      padding: 15px; }
+  section.chocolate_description .flex_container .flex_item .chocolate_pic {
+    margin-right: 30px; }
+  section.chocolate_description .flex_container .flex_item .main_desc .item_text {
+    width: 100% !important; }
+    section.chocolate_description .flex_container .flex_item .main_desc .item_text h2:after {
+      left: -35%; }
+    section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p {
+      letter-spacing: normal;
+      line-height: normal; }
+  section.chocolate_fruits .left_top_img {
+    top: -40%; }
+  section.taste_profile_chart .position_right_img {
+    display: none; }
+  footer .footer_wrappers {
+    width: 100%; } }
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .content {
+    width: 85%;
+    margin: 0 auto; }
+  .flex_container {
+    flex-direction: row; }
+  h2 {
+    font-size: 30px; }
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px; }
+  section.chocolate_fruits .slider .owl-prev {
+    left: -25px; }
+  section.chocolate_fruits .slider .owl-next {
+    right: -25px; }
+  section.choose_type {
+    border: unset;
+    padding-top: 150px; }
+    section.choose_type .diagram_container {
+      height: auto; }
+    section.choose_type .bottom_pos_img {
+      display: none; }
+  section.offer_custom_chocolate {
+    padding-top: 0;
+    margin-top: -20%; }
+    section.offer_custom_chocolate .right_pos_img {
+      right: 0; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+      flex-direction: column; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+        width: 100%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+        padding: 15px; }
+  section.custom_chocolate {
+    background-size: cover; }
+    section.custom_chocolate .section_title_and_paragraph {
+      width: 90%;
+      margin: 0 auto; }
+  section.grid-section-wrapper {
+    padding-bottom: 100px; }
+    section.grid-section-wrapper .reverse_container {
+      flex-direction: row-reverse; }
+      section.grid-section-wrapper .reverse_container .left_item .default_border img {
+        margin: 30px 45px 45px -40px !important; }
+      section.grid-section-wrapper .reverse_container .right_item {
+        padding-right: 35px;
+        z-index: 99999999; }
+        section.grid-section-wrapper .reverse_container .right_item .item_text {
+          margin-right: unset; }
+          section.grid-section-wrapper .reverse_container .right_item .item_text h2 {
+            text-align: left !important; }
+            section.grid-section-wrapper .reverse_container .right_item .item_text h2:after {
+              left: 83% !important; }
+          section.grid-section-wrapper .reverse_container .right_item .item_text p {
+            text-align: left; }
+    section.grid-section-wrapper .flex_container {
+      padding-top: 100px; }
+      section.grid-section-wrapper .flex_container .right_position_img {
+        display: none; }
+      section.grid-section-wrapper .flex_container .left_item {
+        width: 65%;
+        height: auto;
+        z-index: 9999; }
+        section.grid-section-wrapper .flex_container .left_item .default_border {
+          width: auto;
+          height: 390px; }
+          section.grid-section-wrapper .flex_container .left_item .default_border img {
+            margin: 30px; }
+      section.grid-section-wrapper .flex_container .right_item {
+        height: auto;
+        width: 100%;
+        padding-left: 90px; }
+        section.grid-section-wrapper .flex_container .right_item h2 {
+          text-align: left;
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 26px;
+          margin-bottom: 8px; }
+          section.grid-section-wrapper .flex_container .right_item h2:after {
+            left: -32%;
+            width: 28%;
+            z-index: 9999999; }
+        section.grid-section-wrapper .flex_container .right_item p {
+          font-size: 16px;
+          height: 180px;
+          overflow: hidden; }
+  section.chocolate_type:after {
+    transform: rotate(0); }
+  section.chocolate_type .section_title h2 {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 38px;
+    width: 100%; }
+  section.page_wrapper {
+    padding-top: 150px; }
+    section.page_wrapper .page_wrapper_context {
+      width: 100%; }
+      section.page_wrapper .page_wrapper_context p {
+        padding-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context a {
+        margin-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context h1 {
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 30px; }
+  section.choose_type .diagram_container {
+    height: auto; }
+  section.offer_custom_chocolate .right_pos_img {
+    right: 0; }
+  section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+    flex-direction: row; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+      width: 100%; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li h3 {
+      font-size: 40px;
+      text-align: left; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p {
+      font-size: 25px; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span {
+        margin: 25px 0; }
+        section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span:after {
+          width: 45%; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+      padding: 15px; }
+  section.chocolate_description .flex_container .flex_item .chocolate_pic {
+    margin-right: 65px; }
+  section.chocolate_description .flex_container .flex_item .main_desc .item_text {
+    width: 100% !important; }
+    section.chocolate_description .flex_container .flex_item .main_desc .item_text h2:after {
+      left: -28%; }
+    section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p {
+      letter-spacing: normal;
+      line-height: normal; }
+  section.chocolate_fruits .left_top_img {
+    top: -40%; }
+  section.taste_profile_chart .position_right_img {
+    display: none; }
+  section .location {
+    width: 50%; }
+  footer .footer_wrappers {
+    width: 100%; } }
+
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
+  .content {
+    width: 85%;
+    margin: 0 auto; }
+  .flex_container {
+    flex-direction: row; }
+  h2 {
+    font-size: 30px; }
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px; }
+  section.choose_type {
+    border: unset;
+    padding-top: 150px; }
+    section.choose_type .diagram_container {
+      height: auto; }
+    section.choose_type .bottom_pos_img {
+      display: none; }
+  section.offer_custom_chocolate {
+    padding-top: 0;
+    margin-top: -20%; }
+    section.offer_custom_chocolate .right_pos_img {
+      right: 0; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+      flex-direction: column; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+        width: 100%; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+        padding: 15px; }
+  section.custom_chocolate {
+    background-size: cover; }
+    section.custom_chocolate .section_title_and_paragraph {
+      width: 90%;
+      margin: 0 auto; }
+  section.grid-section-wrapper {
+    padding-bottom: 100px; }
+    section.grid-section-wrapper .reverse_container {
+      flex-direction: row-reverse; }
+      section.grid-section-wrapper .reverse_container .left_item .default_border img {
+        margin: 30px 45px 45px -40px !important; }
+      section.grid-section-wrapper .reverse_container .right_item {
+        padding-right: 35px;
+        z-index: 99999999; }
+        section.grid-section-wrapper .reverse_container .right_item .item_text {
+          margin-right: unset; }
+          section.grid-section-wrapper .reverse_container .right_item .item_text h2 {
+            text-align: left !important; }
+            section.grid-section-wrapper .reverse_container .right_item .item_text h2:after {
+              left: 83% !important; }
+          section.grid-section-wrapper .reverse_container .right_item .item_text p {
+            text-align: left; }
+    section.grid-section-wrapper .flex_container {
+      padding-top: 100px; }
+      section.grid-section-wrapper .flex_container .right_position_img {
+        display: none; }
+      section.grid-section-wrapper .flex_container .left_item {
+        width: 65%;
+        height: auto;
+        z-index: 9999; }
+        section.grid-section-wrapper .flex_container .left_item .default_border {
+          width: auto;
+          height: 390px; }
+          section.grid-section-wrapper .flex_container .left_item .default_border img {
+            margin: 30px; }
+      section.grid-section-wrapper .flex_container .right_item {
+        height: auto;
+        width: 100%;
+        padding-left: 90px; }
+        section.grid-section-wrapper .flex_container .right_item h2 {
+          text-align: left;
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 26px;
+          margin-bottom: 8px; }
+          section.grid-section-wrapper .flex_container .right_item h2:after {
+            left: -32%;
+            width: 28%;
+            z-index: 9999999; }
+        section.grid-section-wrapper .flex_container .right_item p {
+          font-size: 16px;
+          height: 180px;
+          overflow: hidden; }
+  section.chocolate_type:after {
+    transform: rotate(0); }
+  section.chocolate_type .section_title h2 {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 38px;
+    width: 100%; }
+  section.page_wrapper {
+    padding-top: 150px; }
+    section.page_wrapper .page_wrapper_context {
+      width: 60%; }
+      section.page_wrapper .page_wrapper_context p {
+        padding-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context a {
+        margin-bottom: 50px; }
+      section.page_wrapper .page_wrapper_context h1 {
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 30px; }
+  section.choose_type .diagram_container {
+    height: auto; }
+  section.offer_custom_chocolate .right_pos_img {
+    right: 0; }
+  section.offer_custom_chocolate .filterDiv ul.main_filtered_product {
+    flex-direction: row; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:last-child, section.offer_custom_chocolate .filterDiv ul.main_filtered_product li:first-child {
+      width: 100%; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li h3 {
+      font-size: 40px;
+      text-align: left; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p {
+      font-size: 25px; }
+      section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span {
+        margin: 25px 0; }
+        section.offer_custom_chocolate .filterDiv ul.main_filtered_product li p span:after {
+          width: 45%; }
+    section.offer_custom_chocolate .filterDiv ul.main_filtered_product .filtered_item_desc {
+      padding: 15px; }
+  section.chocolate_description .flex_container .flex_item .chocolate_pic {
+    margin-right: 65px; }
+  section.chocolate_description .flex_container .flex_item .main_desc .item_text {
+    width: 100% !important; }
+    section.chocolate_description .flex_container .flex_item .main_desc .item_text h2:after {
+      left: -20%; }
+    section.chocolate_description .flex_container .flex_item .main_desc .item_text ul li p {
+      letter-spacing: normal;
+      line-height: normal; }
+  section.chocolate_fruits .left_top_img {
+    top: -40%; }
+  section.taste_profile_chart .position_right_img {
+    display: none; }
+  section .location {
+    width: 50%; }
+  footer .footer_wrappers {
+    width: 100%; } }
+
+@media screen and (max-width: 1440px) and (min-width: 1270px) {
+  section.chocolate_description .flex_container .flex_item .main_desc .item_text h2:after {
+    left: -20%; } }
+
+@media screen and (max-width: 450px) and (min-width: 320px) {
+  section.choose_type .diagram_container #container {
+    transform: scale(1.6); }
+  svg:not(:root) {
+    overflow: visible;
+    transform: scale(0.7); } }
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  section.choose_type .diagram_container #container {
+    transform: scale(1.4); } }

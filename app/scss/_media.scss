@@ -1,0 +1,1432 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  section.chocolate_fruits .nav-tabs{
+    width: 100%;
+
+  }
+
+  section.chocolate_fruits .left_top_img {
+    left: 0;
+    top: -48%;
+    z-index: -6;
+  }
+
+  section.chocolate_fruits .slider .owl-prev {
+    left: 2px;
+  }
+
+  section.chocolate_fruits .slider .owl-prev, section.chocolate_fruits .slider .owl-next {
+    top: 30%;
+  }
+
+  header {
+
+    .fixed-top {
+      position: inherit;
+      height: auto;
+    }
+    .navbar-toggler {
+      float: right;
+    }
+    nav {
+      .content {
+        display: block !important;
+      }
+    }
+    nav {
+      padding-top: 25px;
+      ul {
+        li {
+          text-align: center;
+        }
+        li:nth-child(2) {
+          padding: unset;
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .flex_container {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  figure.snip1566 {
+    margin: 20px auto;
+  }
+
+  section {
+
+    &.offer_custom_chocolate {
+      .item_text {
+        h2 {
+          line-height: normal;
+          letter-spacing: normal;
+        }
+      }
+    }
+    &.chocolate_name {
+      margin-top: 20px;
+    }
+    &.offer_custom_chocolate {
+      padding-top: 0;
+      .right_pos_img {
+        right: 0;
+      }
+      .filterDiv {
+        margin-bottom: 50px;
+
+        ul.main_filtered_product {
+          li {
+            p {
+              min-height: 133px;
+              overflow: hidden;
+              height: 190px;
+              line-height: normal;
+              letter-spacing: normal;
+              font-size: 18px;
+
+              &:last-child {
+                height: auto;
+                min-height: auto;
+              }
+
+              span {
+                margin: 25px 0;
+                &:after {
+                  width: 50%;
+                  bottom: -28px;
+                }
+              }
+            }
+            h3 {
+              letter-spacing: normal;
+              line-height: normal;
+              font-size: 30px;
+              padding-bottom: 35px;
+            }
+          }
+        }
+        .recipe {
+          width: 40%;
+          ul {
+            padding: 0;
+            margin-right: 25px;
+          }
+        }
+      }
+      .item_text {
+        p {
+          width: 90%;
+        }
+      }
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: column;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    &.custom_chocolate {
+      background-size: cover;
+
+      .section_title_and_paragraph {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    &.grid-section-wrapper {
+      padding-bottom: 100px;
+
+      .reverse_container {
+        flex-direction: column;
+        .right_item {
+          .item_text {
+            margin-right: unset;
+
+            h2 {
+              &:after {
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+      .flex_container {
+        padding-top: 100px;
+
+        .right_position_img {
+          right: 0;
+        }
+        .left_item {
+          width: 100%;
+          height: auto;
+          z-index: 9999;
+
+          .default_border {
+            width: auto;
+            height: auto;
+
+            img {
+              margin: 10px 0 10px 10px !important;
+            }
+          }
+        }
+        .right_item {
+          height: auto;
+          width: 100%;
+
+          h2 {
+            text-align: right;
+            letter-spacing: normal;
+            line-height: normal;
+            font-size: 26px;
+
+            &:after {
+              left: 0;
+              width: 28%;
+            }
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    &.chocolate_type {
+
+      &:after {
+        transform: rotate(0);
+        right: 0;
+      }
+      .section_title {
+        h2 {
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 38px;
+          width: 100%;
+        }
+      }
+    }
+    &.page_wrapper {
+      padding-top: 150px;
+      .page_wrapper_context {
+        width: 100%;
+        p {
+          padding-bottom: 50px;
+        }
+        a {
+          margin-bottom: 50px;
+        }
+        h1 {
+          line-height: normal;
+          letter-spacing: normal;
+          font-size: 30px;
+        }
+      }
+    }
+    &.choose_type {
+      border: unset;
+      padding-top: 60px;
+      .bottom_pos_img {
+        display: none;
+      }
+      .diagram_container {
+        height: auto;
+      }
+    }
+    &.chocolate_fruits {
+      .right_bottom_img {
+        display: none;
+      }
+      .choose_nuts {
+        width: 90%;
+        padding-bottom: 70px;
+        padding-top: 90px;
+      }
+      .section_title {
+        p {
+          width: 100%;
+          padding-bottom: 70px;
+        }
+        h2 {
+          padding-bottom: 25px;
+          padding-top: 50px;
+        }
+      }
+    }
+    &.chocolate_description {
+      padding-top: 80px;
+      .flex_container {
+        .flex_item {
+          .main_desc {
+            flex-direction: column;
+            .item_text {
+              width: 100%;
+              ul {
+                li {
+                  p {
+                    line-height: normal;
+                    letter-spacing: normal;
+
+                    &.child_prop {
+                      span {
+                        padding-left: 0;
+                        display: block;
+                        text-align: left;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .chocolate_pic {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &.taste_profile_chart {
+      padding-top: 80px;
+      padding-bottom: 100px;
+      .diagram {
+        img {
+          width: 100%;
+        }
+      }
+      .section_title {
+        h2 {
+          line-height: normal;
+          letter-spacing: normal;
+        }
+        p {
+          width: 96%;
+        }
+      }
+      .position_right_img {
+        display: none;
+      }
+    }
+  }
+
+  footer {
+    .footer_wrappers {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  section {
+    &.offer_custom_chocolate {
+      .filterDiv {
+        ul.main_filtered_product {
+          li {
+            p {
+              min-height: 75px !important;
+              height: 75px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header {
+
+    .fixed-top {
+      position: inherit;
+      height: auto;
+    }
+    .navbar-toggler {
+      float: right;
+    }
+    nav {
+      .content {
+        display: block !important;
+      }
+    }
+    nav {
+      padding-top: 25px;
+      ul {
+        li {
+          text-align: center;
+        }
+        li:nth-child(2) {
+          padding: unset;
+        }
+      }
+    }
+  }
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex_container {
+    flex-direction: row;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+  }
+  section {
+    &.custom_chocolate {
+      background-size: cover;
+
+      .section_title_and_paragraph {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    &.grid-section-wrapper {
+      padding-bottom: 100px;
+
+      .reverse_container {
+        flex-direction: row-reverse;
+        .right_item {
+          padding-right: 35px;
+
+          .item_text {
+            margin-right: unset;
+
+            h2 {
+              text-align: left !important;
+              &:after {
+                left: 83% !important;
+              }
+            }
+          }
+        }
+      }
+
+      .flex_container {
+        padding-top: 100px;
+
+        .right_position_img {
+          display: none;
+        }
+
+        .left_item {
+          width: 100%;
+          height: auto;
+          z-index: 9999;
+
+          .default_border {
+            width: auto;
+            height: auto;
+
+            img {
+              margin: 10px 0 10px 10px !important;
+            }
+          }
+        }
+        .right_item {
+          height: auto;
+          width: 100%;
+          padding-left: 35px;
+
+          h2 {
+            text-align: left;
+            letter-spacing: normal;
+            line-height: normal;
+            font-size: 26px;
+            margin-bottom: 8px;
+
+            &:after {
+              left: -32%;
+              width: 28%;
+              z-index: 9999999;
+            }
+          }
+
+          p {
+            font-size: 16px;
+            height: 180px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+    &.chocolate_type {
+      &:after {
+        transform: rotate(0);
+      }
+      .section_title {
+        h2 {
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 38px;
+          width: 100%;
+        }
+      }
+    }
+    &.page_wrapper {
+      padding-top: 150px;
+      .page_wrapper_context {
+        width: 100%;
+        p {
+          padding-bottom: 50px;
+        }
+        a {
+          margin-bottom: 50px;
+        }
+        h1 {
+          line-height: normal;
+          letter-spacing: normal;
+          font-size: 30px;
+        }
+      }
+    }
+    &.choose_type {
+      border: unset;
+      padding-top: 100px;
+      .diagram_container {
+        height: auto;
+      }
+      .bottom_pos_img {
+        display: none;
+      }
+    }
+    &.offer_custom_chocolate {
+      padding-top: 0;
+      margin-top: -20%;
+
+      .right_pos_img {
+        right: 0;
+      }
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: column;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    &.taste_profile_chart {
+      .position_right_img {
+        right: 0;
+        opacity: 0.4;
+      }
+      .position_left_img {
+        opacity: 0.4;
+      }
+    }
+    &.chocolate_fruits {
+      .left_top_img {
+        top: -40%;
+      }
+      .choose_nuts {
+        width: 96%;
+      }
+    }
+    &.chocolate_description {
+      .flex_container {
+        .flex_item {
+          .main_desc {
+            flex-direction: column;
+            .item_text {
+              width: 100%;
+              h2 {
+                letter-spacing: normal;
+                line-height: normal;
+                &:after {
+                  display: none;
+                  left: -20%;
+                  top: 25px;
+                }
+              }
+            }
+          }
+          .chocolate_pic {
+            margin-right: 20px;
+            width: 250px;
+          }
+        }
+      }
+    }
+    &.offer_custom_chocolate {
+      .filterDiv {
+        ul.main_filtered_product {
+          li {
+            p {
+              font-size: 18px;
+              margin: unset;
+              span {
+                font-size: 40px;
+                line-height: normal;
+                letter-spacing: normal;
+                margin: 20px 0;
+
+                &:after {
+                  bottom: 24px;
+                }
+              }
+            }
+            h3 {
+              font-size: 45px;
+              padding: 0 20px 25px;
+              margin: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .footer_wrappers {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex_container {
+    flex-direction: row;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+  }
+  section {
+    &.choose_type {
+      border: unset;
+      padding-top: 150px;
+      .diagram_container {
+        height: auto;
+      }
+      .bottom_pos_img {
+        display: none;
+      }
+    }
+    &.offer_custom_chocolate {
+      padding-top: 0;
+      margin-top: -20%;
+
+      .right_pos_img {
+        right: 0;
+      }
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: column;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    &.custom_chocolate {
+      background-size: cover;
+
+      .section_title_and_paragraph {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    &.grid-section-wrapper {
+      padding-bottom: 100px;
+
+      .reverse_container {
+        flex-direction: row-reverse;
+        .right_item {
+          padding-right: 35px;
+          .item_text {
+            margin-right: unset;
+
+            h2 {
+              text-align: left !important;
+              &:after {
+                left: 83% !important;
+              }
+            }
+          }
+        }
+      }
+
+      .flex_container {
+        padding-top: 100px;
+
+        .right_position_img {
+          display: none;
+        }
+
+        .left_item {
+          width: 100%;
+          height: auto;
+          z-index: 9999;
+
+          .default_border {
+            width: auto;
+            height: auto;
+
+            img {
+              margin: 10px 0 10px 10px;
+            }
+          }
+        }
+        .right_item {
+          height: auto;
+          width: 100%;
+          padding-left: 35px;
+
+          h2 {
+            text-align: left;
+            letter-spacing: normal;
+            line-height: normal;
+            font-size: 26px;
+            margin-bottom: 8px;
+
+            &:after {
+              left: -32%;
+              width: 28%;
+              z-index: 9999999;
+            }
+          }
+
+          p {
+            font-size: 16px;
+            height: 180px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+    &.chocolate_type {
+
+      &:after {
+        transform: rotate(0);
+      }
+      .section_title {
+        h2 {
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 38px;
+          width: 100%;
+        }
+      }
+    }
+    &.page_wrapper {
+      padding-top: 150px;
+      .page_wrapper_context {
+        width: 100%;
+        p {
+          padding-bottom: 50px;
+        }
+        a {
+          margin-bottom: 50px;
+        }
+        h1 {
+          line-height: normal;
+          letter-spacing: normal;
+          font-size: 30px;
+        }
+      }
+    }
+    &.choose_type {
+      .diagram_container {
+        height: auto;
+      }
+    }
+    &.offer_custom_chocolate {
+      .right_pos_img {
+        right: 0;
+      }
+    }
+    &.offer_custom_chocolate {
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: row;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+            h3 {
+              font-size: 50px;
+            }
+            p {
+              span {
+                margin: 25px 0;
+
+                &:after {
+                  width: 35%;
+                }
+              ;
+              }
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    &.chocolate_description {
+      .flex_container {
+        .flex_item {
+          .chocolate_pic {
+            margin-right: 30px;
+          }
+        }
+        .flex_item {
+          .main_desc {
+            .item_text {
+              width: 100% !important;
+
+              h2 {
+                &:after {
+                  left: -35%;
+                }
+              }
+              ul {
+                li {
+                  p {
+                    letter-spacing: normal;
+                    line-height: normal;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.chocolate_fruits {
+      .left_top_img {
+        top: -40%;
+      }
+    }
+    &.taste_profile_chart {
+      .position_right_img {
+        display: none;
+      }
+    }
+  }
+
+  footer {
+    .footer_wrappers {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  .content {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .flex_container {
+    flex-direction: row;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  section.chocolate_fruits .slider .owl-prev {
+    left: -25px;
+  }
+
+  section.chocolate_fruits .slider .owl-next {
+    right: -25px;
+  }
+
+  section {
+
+    &.choose_type {
+      border: unset;
+      padding-top: 150px;
+      .diagram_container {
+        height: auto;
+      }
+      .bottom_pos_img {
+        display: none;
+      }
+    }
+    &.offer_custom_chocolate {
+      padding-top: 0;
+      margin-top: -20%;
+
+      .right_pos_img {
+        right: 0;
+      }
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: column;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+
+    &.custom_chocolate {
+      background-size: cover;
+
+      .section_title_and_paragraph {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    &.grid-section-wrapper {
+      padding-bottom: 100px;
+
+      .reverse_container {
+        flex-direction: row-reverse;
+        .left_item {
+          .default_border {
+            img {
+              margin: 30px 45px 45px -40px !important;
+            }
+          }
+        }
+        .right_item {
+          padding-right: 35px;
+          z-index: 99999999;
+          .item_text {
+            margin-right: unset;
+
+            h2 {
+              text-align: left !important;
+              &:after {
+                left: 83% !important;
+              }
+            }
+            p {
+              text-align: left;
+            }
+          }
+        }
+      }
+
+      .flex_container {
+        padding-top: 100px;
+
+        .right_position_img {
+          display: none;
+        }
+
+        .left_item {
+          width: 65%;
+          height: auto;
+          z-index: 9999;
+
+          .default_border {
+            width: auto;
+            height: 390px;
+
+            img {
+              margin: 30px;
+            }
+          }
+        }
+        .right_item {
+          height: auto;
+          width: 100%;
+          padding-left: 90px;
+
+          h2 {
+            text-align: left;
+            letter-spacing: normal;
+            line-height: normal;
+            font-size: 26px;
+            margin-bottom: 8px;
+
+            &:after {
+              left: -32%;
+              width: 28%;
+              z-index: 9999999;
+            }
+          }
+
+          p {
+            font-size: 16px;
+            height: 180px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+    &.chocolate_type {
+
+      &:after {
+        transform: rotate(0);
+      }
+      .section_title {
+        h2 {
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 38px;
+          width: 100%;
+        }
+      }
+    }
+    &.page_wrapper {
+      padding-top: 150px;
+      .page_wrapper_context {
+        width: 100%;
+        p {
+          padding-bottom: 50px;
+        }
+        a {
+          margin-bottom: 50px;
+        }
+        h1 {
+          line-height: normal;
+          letter-spacing: normal;
+          font-size: 30px;
+        }
+      }
+    }
+    &.choose_type {
+      .diagram_container {
+        height: auto;
+      }
+    }
+    &.offer_custom_chocolate {
+      .right_pos_img {
+        right: 0;
+      }
+    }
+    &.offer_custom_chocolate {
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: row;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+            h3 {
+              font-size: 40px;
+              text-align: left;
+            }
+            p {
+              font-size: 25px;
+
+              span {
+                margin: 25px 0;
+                &:after {
+                  width: 45%;
+                }
+              }
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    &.chocolate_description {
+      .flex_container {
+        .flex_item {
+          .chocolate_pic {
+            margin-right: 65px;
+          }
+        }
+        .flex_item {
+          .main_desc {
+            .item_text {
+              width: 100% !important;
+              h2 {
+                &:after {
+                  left: -28%;
+                }
+              }
+              ul {
+                li {
+                  p {
+                    letter-spacing: normal;
+                    line-height: normal;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.chocolate_fruits {
+      .left_top_img {
+        top: -40%;
+      }
+    }
+    &.taste_profile_chart {
+      .position_right_img {
+        display: none;
+      }
+    }
+    .location {
+      width: 50%;
+    }
+  }
+
+  footer {
+    .footer_wrappers {
+      width: 100%;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
+
+  .content {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .flex_container {
+    flex-direction: row;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  figure.snip1566 {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  section {
+    &.choose_type {
+      border: unset;
+      padding-top: 150px;
+      .diagram_container {
+        height: auto;
+      }
+      .bottom_pos_img {
+        display: none;
+      }
+    }
+    &.offer_custom_chocolate {
+      padding-top: 0;
+      margin-top: -20%;
+
+      .right_pos_img {
+        right: 0;
+      }
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: column;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    &.custom_chocolate {
+      background-size: cover;
+
+      .section_title_and_paragraph {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    &.grid-section-wrapper {
+      padding-bottom: 100px;
+
+      .reverse_container {
+        flex-direction: row-reverse;
+        .left_item {
+          .default_border {
+            img {
+              margin: 30px 45px 45px -40px !important;
+            }
+          }
+        }
+        .right_item {
+          padding-right: 35px;
+          z-index: 99999999;
+          .item_text {
+            margin-right: unset;
+
+            h2 {
+              text-align: left !important;
+              &:after {
+                left: 83% !important;
+              }
+            }
+            p {
+              text-align: left;
+            }
+          }
+        }
+      }
+
+      .flex_container {
+        padding-top: 100px;
+
+        .right_position_img {
+          display: none;
+        }
+
+        .left_item {
+          width: 65%;
+          height: auto;
+          z-index: 9999;
+
+          .default_border {
+            width: auto;
+            height: 390px;
+
+            img {
+              margin: 30px;
+            }
+          }
+        }
+        .right_item {
+          height: auto;
+          width: 100%;
+          padding-left: 90px;
+
+          h2 {
+            text-align: left;
+            letter-spacing: normal;
+            line-height: normal;
+            font-size: 26px;
+            margin-bottom: 8px;
+
+            &:after {
+              left: -32%;
+              width: 28%;
+              z-index: 9999999;
+            }
+          }
+
+          p {
+            font-size: 16px;
+            height: 180px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+    &.chocolate_type {
+
+      &:after {
+        transform: rotate(0);
+      }
+      .section_title {
+        h2 {
+          letter-spacing: normal;
+          line-height: normal;
+          font-size: 38px;
+          width: 100%;
+        }
+      }
+    }
+    &.page_wrapper {
+      padding-top: 150px;
+      .page_wrapper_context {
+        width: 60%;
+        p {
+          padding-bottom: 50px;
+        }
+        a {
+          margin-bottom: 50px;
+        }
+        h1 {
+          line-height: normal;
+          letter-spacing: normal;
+          font-size: 30px;
+        }
+      }
+    }
+    &.choose_type {
+      .diagram_container {
+        height: auto;
+      }
+    }
+    &.offer_custom_chocolate {
+      .right_pos_img {
+        right: 0;
+      }
+    }
+    &.offer_custom_chocolate {
+      .filterDiv {
+        ul.main_filtered_product {
+          flex-direction: row;
+
+          li {
+            &:last-child, &:first-child {
+              width: 100%;
+            }
+            h3 {
+              font-size: 40px;
+              text-align: left;
+            }
+            p {
+              font-size: 25px;
+
+              span {
+                margin: 25px 0;
+                &:after {
+                  width: 45%;
+                }
+              }
+            }
+          }
+          .filtered_item_desc {
+            padding: 15px;
+          }
+        }
+      }
+    }
+    &.chocolate_description {
+      .flex_container {
+        .flex_item {
+          .chocolate_pic {
+            margin-right: 65px;
+          }
+        }
+        .flex_item {
+          .main_desc {
+            .item_text {
+              width: 100% !important;
+              h2 {
+                &:after {
+                  left: -20%;
+                }
+              }
+              ul {
+                li {
+                  p {
+                    letter-spacing: normal;
+                    line-height: normal;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.chocolate_fruits {
+      .left_top_img {
+        top: -40%;
+      }
+    }
+    &.taste_profile_chart {
+      .position_right_img {
+        display: none;
+      }
+    }
+
+    .location {
+      width: 50%;
+    }
+  }
+
+  footer {
+    .footer_wrappers {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1270px) {
+  section {
+    &.chocolate_description {
+      .flex_container {
+        .flex_item {
+          .main_desc {
+            .item_text {
+              h2 {
+                &:after {
+                  left: -20%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//scale css
+@media screen and (max-width: 450px) and (min-width: 320px){
+  section.choose_type .diagram_container #container{
+    transform: scale(1.6);
+  }
+  svg:not(:root) {
+    overflow: visible;
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  section.choose_type .diagram_container #container{
+    transform: scale(1.4);
+  }
+}

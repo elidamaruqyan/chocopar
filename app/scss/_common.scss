@@ -1,0 +1,36 @@
+.content{
+  width: calc-main-content($main, $container);
+  margin: 0 auto;
+}
+
+h2{
+  @extend %headline_extend;
+}
+
+p{
+  @extend %paragraph_extend;
+}
+
+.flex_container{
+  display: flex;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+img{
+  width: 100%;
+}
+a img{
+  width: unset;
+}
+
+body{
+  background-color: #252525;
+}
+
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
